@@ -1,0 +1,15 @@
+# Core dependencies
+# No external dependencies required for basic operation
+# Python standard library provides: subprocess, json, re, time, logging, dataclasses
+
+# Optional: For enhanced logging and configuration
+python-dotenv>=1.0.0
+
+# Optional: For async support (if integrating with async OpenClaw)
+# asyncio is built-in to Python 3.7+
+
+# Development dependencies
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+mypy>=1.0.0

@@ -1,0 +1,27 @@
+{
+  "claude_code_triggers": [
+    "file|folder|directory",
+    "create|write|edit|modify",
+    "code|script|program",
+    "analyze|review|check",
+    "search.*codebase",
+    "run|execute|build|test",
+    "cowork|claude code"
+  ],
+  "always_openclaw": [
+    "weather",
+    "time|date",
+    "hello|hi|hey",
+    "thanks|thank you",
+    "what is|who is|explain"
+  ],
+  "user_allowlist": [
+    "REPLACE_WITH_YOUR_TELEGRAM_USER_ID"
+  ],
+  "settings": {
+    "default_timeout": 300,
+    "max_message_length": 4000,
+    "rate_limit_per_minute": 10,
+    "log_all_requests": true
+  }
+}

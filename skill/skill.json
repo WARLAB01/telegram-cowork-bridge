@@ -1,0 +1,23 @@
+{
+  "name": "claude-code-bridge",
+  "version": "1.0.0",
+  "description": "Bridge to Claude Code for file operations and complex agentic tasks",
+  "author": "Barlowtech Team",
+  "triggers": [
+    "use claude code",
+    "run in claude code",
+    "file operation",
+    "code task",
+    "cowork",
+    "analyze file",
+    "create file",
+    "edit file",
+    "search codebase"
+  ],
+  "tools": ["claude_code_execute", "claude_code_status", "claude_code_cancel"],
+  "config": {
+    "timeout": 300000,
+    "maxBuffer": 10485760,
+    "defaultTools": ["Read", "Write", "Edit", "Bash", "Glob", "Grep", "WebFetch", "WebSearch"]
+  }
+}

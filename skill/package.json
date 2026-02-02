@@ -1,0 +1,29 @@
+{
+  "name": "claude-code-bridge",
+  "version": "1.0.0",
+  "description": "OpenClaw skill to bridge Telegram to Claude Code",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "clean": "rm -rf dist",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "openclaw",
+    "claude-code",
+    "telegram",
+    "bridge",
+    "skill"
+  ],
+  "author": "Barlowtech",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
